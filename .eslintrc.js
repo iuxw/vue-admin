@@ -170,7 +170,7 @@ module.exports = {
       'after': true
     }],
     'space-before-blocks': [2, 'always'],
-    'space-before-function-paren': [2, 'always'],
+    'space-before-function-paren': [2, 'always'], // 声明函数时函数名后加空格
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [2, {
@@ -191,7 +191,7 @@ module.exports = {
     'object-curly-spacing': [2, 'never', { // 对象、数组括号内前后去空格
       objectsInObjects: false
     }],
-    'array-bracket-spacing': [2, 'never'] // 声明函数时函数名后加空格
+    'array-bracket-spacing': [2, 'never']
   }
 }
 
